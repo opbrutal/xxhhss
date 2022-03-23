@@ -25,7 +25,7 @@ UstaD_Help += f" `.raid` - to raid\n `.replyraid` - to active reply raid\n `.dre
 UstaD_Help += f"© @Nishu_bothub\n"
 
 
-@.on(events.NewMessage(incoming=True, pattern=r"/help))
+@.on(events.NewMessage(incoming=True, pattern=r"/help"))
 async def help(event):               
     if event.sender_id in SUDO_USERS:
       await UstaD.send_file(event.chat_id,
