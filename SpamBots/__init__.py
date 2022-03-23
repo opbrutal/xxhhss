@@ -174,7 +174,7 @@ RAID = [
 
 
 RRAID = [
-    "ᴮᵀ㊝☆ʙʀᴏᴛʜᴇʀs✠ KA LUND LE,
+    "ᴮᵀ㊝☆ʙʀᴏᴛʜᴇʀs✠ KA LUND LE",
     "ᴮᵀ㊝☆ʙʀᴏᴛʜᴇʀs✠ HE HUM BHOSDIKE",
     "ᴮᵀ㊝☆ʙʀᴏᴛʜᴇʀs✠ HERE👅👅 LAAAWEEE KE BAAAAAL",
     "MAAAAR KI JHAAAAT KE BBBBBAAAAALLLLL",
