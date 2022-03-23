@@ -75,6 +75,11 @@
             "value": ""
             
         },
+        "OWNER_ID": {
+            "description": "owner Id",
+            "value": "",
+            "required": true
+        },
         "HEROKU_API_KEY": {
             "description": "Your Heroku api key to update your bot",
             "value": ""
