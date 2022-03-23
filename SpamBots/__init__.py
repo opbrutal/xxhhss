@@ -413,7 +413,7 @@ PORMS = [
         "https://telegra.ph/file/f5c9ceded3ee6e76a5931.jpg",
         "https://telegra.ph/file/a8bf6c6df8a48e4a306ca.jpg",
         "https://telegra.ph/file/af9e3f98da0bd937adf6e.jpg",
-
+]
 
 
 GROUP = ["-1001686211366, -1001627373847, -1001607289761, -1001286822812, -1001720017255, -1001511274173"]
