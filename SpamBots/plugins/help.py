@@ -3,7 +3,6 @@ from telethon import events, Button
 from telethon.tl.custom import button
 from time import time
 from datetime import datetime
-from SpamBots import CMD_HNDLR as hl
     
 HELP_PIC = "https://telegra.ph/file/31d7fb96cdba287a05515.jpg"
 
