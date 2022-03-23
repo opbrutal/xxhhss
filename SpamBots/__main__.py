@@ -15,8 +15,8 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-print("Successfully deployed ᴮᵀ㊝☆ʙʀᴏᴛʜᴇʀs✠ spam")
-print("Enjoy! Do visit 🥀 @the_brothers_group")
+print("Successfully deployed ʙʀᴏᴛʜᴇʀs spam")
+print("Enjoy! Do visit @the_brothers_group")
 
 if __name__ == "__main__":
     UstaD.run_until_disconnected()
