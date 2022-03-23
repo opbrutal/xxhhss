@@ -1,3 +1,4 @@
+import os
 from telethon import TelegramClient
 from decouple import config
 import logging
