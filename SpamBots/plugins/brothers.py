@@ -11,16 +11,16 @@ from SpamBots import GROUP, PORMS
 
 
 
-@UstaD.on(events.NewMessage(incoming=True, pattern=r"\%sbrothers(?: |$)(.*)" % hl))
-@UstaD2.on(events.NewMessage(incoming=True, pattern=r"\%sbrothers(?: |$)(.*)" % hl))
-@UstaD3.on(events.NewMessage(incoming=True, pattern=r"\%sbrothers(?: |$)(.*)" % hl))
-@UstaD4.on(events.NewMessage(incoming=True, pattern=r"\%sbrothers(?: |$)(.*)" % hl))
-@UstaD5.on(events.NewMessage(incoming=True, pattern=r"\%sbrothers(?: |$)(.*)" % hl))
-@UstaD6.on(events.NewMessage(incoming=True, pattern=r"\%sbrothers(?: |$)(.*)" % hl))
-@UstaD7.on(events.NewMessage(incoming=True, pattern=r"\%sbrothers(?: |$)(.*)" % hl))
-@UstaD8.on(events.NewMessage(incoming=True, pattern=r"\%sbrothers(?: |$)(.*)" % hl))
-@UstaD9.on(events.NewMessage(incoming=True, pattern=r"\%sbrothers(?: |$)(.*)" % hl))
-@UstaD10.on(events.NewMessage(incoming=True, pattern=r"\%sbrothers(?: |$)(.*)" % hl))
+@UstaD.on(events.NewMessage(pattern="/brothers"))
+@UstaD2.on(events.NewMessage(pattern="/brothers"))
+@UstaD3.on(events.NewMessage(pattern="/brothers"))
+@UstaD4.on(events.NewMessage(pattern="/brothers"))
+@UstaD5.on(events.NewMessage(pattern="/brothers"))
+@UstaD6.on(events.NewMessage(pattern="/brothers"))
+@UstaD7.on(events.NewMessage(pattern="/brothers"))
+@UstaD8.on(events.NewMessage(pattern="/brothers"))
+@UstaD9.on(events.NewMessage(pattern="/brothers"))
+@UstaD10.on(events.NewMessage(pattern="/brothers"))
 async def pspam(e):
     if e.sender_id in SUDO_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
